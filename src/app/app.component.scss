@@ -4,10 +4,14 @@
     width: 100%;
 }
 
-.siderbar {
+.sidebar {
     width: 25%;
 }
 
 .content {
     width: 75%;
+}
+
+router-outlet {
+    display: contents;
 }
