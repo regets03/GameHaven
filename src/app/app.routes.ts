@@ -13,5 +13,11 @@ export const routes: Routes = [
         loadComponent: () => {
             return import('./framework/display/gametable/gametable.component').then((m) => m.GametableComponent)
         }
+    },
+    {
+        path: 'strategie/tictactoe',
+        loadComponent:() => {
+            return import('./games/strategie/tictactoe/tictactoe.component').then((m) => m.TictactoeComponent)
+        },
     }
 ];

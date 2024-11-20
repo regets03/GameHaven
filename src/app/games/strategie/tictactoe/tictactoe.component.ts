@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FieldComponent } from "./field/field.component";
 
 @Component({
   selector: 'app-tictactoe',
   standalone: true,
-  imports: [],
+  imports: [FieldComponent],
   templateUrl: './tictactoe.component.html',
   styleUrl: './tictactoe.component.scss'
 })

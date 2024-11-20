@@ -26,9 +26,13 @@
 
 .test {
     display: flex;
-    height: 20px;
     align-items: center;
     &:hover {
         cursor: pointer;
     }
+}
+
+.test2 {
+    height: 60px;
+    width: 60px;
 }
