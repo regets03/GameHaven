@@ -1,5 +1,13 @@
-.field {
+:host {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    // gap: 3px;
+
+    background-color: black;
+    border: none;
+    padding: none;
+    row-gap: 0px;
+    
+
 }
