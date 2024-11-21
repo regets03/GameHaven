@@ -1,17 +1,18 @@
 .display {
     display: flex;
     height: 90%;
-    width: 100%;
+    // width: 100%;
+    
 }
 
 .sidebar {
     width: 25%;
 }
 
-.content {
-    width: 75%;
-}
+// .content {
+//     width: 75%;
+// }
 
-router-outlet {
-    display: contents;
-}
+// router-outlet {
+//     display: contents;
+// }
