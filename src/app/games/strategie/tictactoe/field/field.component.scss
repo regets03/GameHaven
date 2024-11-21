@@ -2,12 +2,57 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    // gap: 3px;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
 
-    background-color: black;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+    padding: 0;
     border: none;
-    padding: none;
-    row-gap: 0px;
-    
 
+
+    &:hover .hovertext{
+        opacity: 1;
+    }
+}
+
+.hovertext {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    position: absolute; /* Hover-Text überlagert Button */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex; /* Flexbox zur Zentrierung */
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 128px;
+}
+
+.x {
+    color: rgb(238, 102, 119);
+}
+
+.o {
+    color: rgb(24, 188, 156);
 }

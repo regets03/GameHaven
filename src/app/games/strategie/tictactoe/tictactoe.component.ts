@@ -8,6 +8,6 @@ import { FieldComponent } from "./field/field.component";
   templateUrl: './tictactoe.component.html',
   styleUrl: './tictactoe.component.scss'
 })
-export class TictactoeComponent {
+export class TictactoeComponent{
 
 }

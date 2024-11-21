@@ -1,1 +1,6 @@
-<app-square class="field" *ngFor="let i of [0, 1, 2, 3, 4, 5, 6, 7, 8]"></app-square>
+<button *ngFor="let i of [0, 1, 2, 3, 4, 5, 6, 7, 8]" (click)="move(i)">
+    <div *ngIf="!squares[i]" [ngClass]="{'x': this.player === 'x', 'o': this.player === 'o'}" class="hovertext text">{{ this.player }}</div>
+    <div *ngIf="squares[i]" [ngClass]="{'x': squares[i] === 'x', 'o': squares[i] === 'o'}" class="text">
+        {{ squares[i] }}
+    </div>
+</button>
