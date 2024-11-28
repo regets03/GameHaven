@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-gamecard',
+  selector: 'gamecard',
   standalone: true,
   imports: [],
   templateUrl: './gamecard.component.html',

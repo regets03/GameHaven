@@ -13,8 +13,8 @@ button {
     justify-self: center;
     position: relative;
 
-    width: 200px;
-    height: 200px;
+    width: 10.4167vw;
+    aspect-ratio: 1 / 1;
     padding: 0;
     border: none;
 
@@ -28,12 +28,11 @@ button {
     opacity: 0;
     transition: opacity 0.3s ease;
 
-    position: absolute; /* Hover-Text überlagert Button */
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    display: flex; /* Flexbox zur Zentrierung */
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -49,10 +48,10 @@ button {
     font-size: 128px;
 }
 
-.x {
+.X {
     color: rgb(238, 102, 119);
 }
 
-.o {
+.O {
     color: rgb(24, 188, 156);
 }

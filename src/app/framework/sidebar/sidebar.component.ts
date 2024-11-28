@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-sidebar',
+  selector: 'sidebar',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './sidebar.component.html',

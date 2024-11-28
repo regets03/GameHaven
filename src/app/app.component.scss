@@ -1,18 +1,10 @@
 .display {
     display: flex;
     height: 90%;
-    // width: 100%;
     
 }
 
 .sidebar {
     width: 25%;
+    min-width: 25vw;
 }
-
-// .content {
-//     width: 75%;
-// }
-
-// router-outlet {
-//     display: contents;
-// }
