@@ -20,7 +20,6 @@ export class GamecardComponent {
 
   navigateToGame(): void {
     this.currentUrl = this.router.url;
-    console.log(`${this.currentUrl}/${this.title.toLowerCase()}`);
     this.router.navigate([`${this.currentUrl}/${this.title.toLowerCase()}`]);
   }
   

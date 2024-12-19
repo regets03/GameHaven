@@ -18,6 +18,22 @@ export class GametableComponent implements OnInit{
 
   category: string | null = null;
   allowedCategories = ['denken', 'strategie', 'geschick'];
+  denken = ['Kyudoku'];
+  strategie = ['TicTacToe'];
+  geschick = [];
+
+  games(): string[] {
+    switch (this.category) {
+      case 'denken':
+        return this.denken;
+      case 'strategie':
+        return this.strategie;
+      case 'geschick':
+        return this.geschick;
+      default:
+        return [];
+    }
+  }
 
   constructor(private route: ActivatedRoute, private router: Router) {}
 

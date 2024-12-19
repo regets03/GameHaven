@@ -19,5 +19,11 @@ export const routes: Route[] = [
         loadComponent:() => {
             return import('./games/strategie/tictactoe/tictactoe.component').then((m) => m.TictactoeComponent)
         },
+    },
+    {
+        path: 'denken/kyudoku',
+        loadComponent:() => {
+            return import('./games/denken/kyudoku/kyudoku.component').then((m) => m.KyudokuComponent)
+        },
     }
 ];
